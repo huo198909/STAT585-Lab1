@@ -13,6 +13,15 @@ library(RCurl)
 
 ## Build a Book
 
+```{r}
+# Fristly, I clone the repository https://github.com/hadley/adv-r amd open the R project in the   repository in RStudio. When I want to knit the file index.Rmd, I encounter some errors.
+# summary of error I found:
+# Frist time I knit the code , I encounter rlang, this is the package I need to install in R.
+# Then I knit again, a new error shows that "there is no package called desc", so I install      desc package in my computer.
+# Again, the same error shows that I also need to install "sessioninfo" and "lobstr".
+# Then, the biggest problem I encountered is in line 783, it shows that `err` inherits from `warning/condition` not `error_bad_argument`. I tried to install some packages to deal with it, but it is not working.
+```
+
 
 ## Weather Station
 
